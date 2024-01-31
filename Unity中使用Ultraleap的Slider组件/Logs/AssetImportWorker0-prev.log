@@ -1,0 +1,856 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.33f1c1 (682b9db7927c) revision 6826909'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'zh' Physical Memory: 15741 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.33f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+F:/Unity 3D/test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63009
+Successfully changed project path to: F:/Unity 3D/test
+F:/Unity 3D/test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [68056] Host "[IP] 192.168.51.1 [Port] 0 [Flags] 2 [Guid] 526063797 [EditorId] 526063797 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CSRMN22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [68056] Host "[IP] 192.168.51.1 [Port] 0 [Flags] 2 [Guid] 526063797 [EditorId] 526063797 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-CSRMN22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 82.16 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.33f1c1 (682b9db7927c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.33f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Unity 3D/test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   27.21.14.5749
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.33f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.33f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.021982 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 78.32 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.988 seconds
+Domain Reload Profiling:
+	ReloadAssembly (988ms)
+		BeginReloadAssembly (267ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (537ms)
+			LoadAssemblies (250ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (138ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (289ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014517 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.010 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2011ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1620ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (1035ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (803ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (43ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3419 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (74.7 KB). Loaded Objects now: 3879.
+Memory consumption went from 123.5 MB to 123.4 MB.
+Total: 3.788800 ms (FindLiveObjects: 0.311100 ms CreateObjectMapping: 0.142400 ms MarkObjects: 3.149100 ms  DeleteObjects: 0.184700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 398830.402383 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Textures/Physical Hands/Soft Contact-large.png
+  artifactKey: Guid(4362900a582fc3e4583c8a86f4ee6d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Textures/Physical Hands/Soft Contact-large.png using Guid(4362900a582fc3e4583c8a86f4ee6d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ce183771f0ea2d3dde7b9e32a98627') in 0.259543 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Textures/Physical Hands/icon-restart.png
+  artifactKey: Guid(aa4d10c785505c14aabcf1982016d7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Textures/Physical Hands/icon-restart.png using Guid(aa4d10c785505c14aabcf1982016d7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6950dfac7654e171abb2032af17502f') in 0.066271 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011953 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.928 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1929ms)
+		BeginReloadAssembly (272ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1484ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (958ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (766ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (37ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.97 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3392 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (48.4 KB). Loaded Objects now: 3891.
+Memory consumption went from 125.6 MB to 125.5 MB.
+Total: 4.076700 ms (FindLiveObjects: 0.401700 ms CreateObjectMapping: 0.137000 ms MarkObjects: 3.424600 ms  DeleteObjects: 0.111600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.771 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1772ms)
+		BeginReloadAssembly (233ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1394ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (893ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (739ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3392 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (48.4 KB). Loaded Objects now: 3894.
+Memory consumption went from 125.6 MB to 125.6 MB.
+Total: 6.265100 ms (FindLiveObjects: 0.516700 ms CreateObjectMapping: 0.381700 ms MarkObjects: 5.219800 ms  DeleteObjects: 0.144600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014357 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.840 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1841ms)
+		BeginReloadAssembly (243ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1446ms)
+			LoadAssemblies (194ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (290ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (927ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (748ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (45ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.25 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3392 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (48.4 KB). Loaded Objects now: 3897.
+Memory consumption went from 125.6 MB to 125.6 MB.
+Total: 4.241100 ms (FindLiveObjects: 0.397300 ms CreateObjectMapping: 0.335700 ms MarkObjects: 3.404100 ms  DeleteObjects: 0.101800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 770.019436 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Hands (URP)/Materials/URP_Skeleton.mat
+  artifactKey: Guid(35b03601ea2a9c247983802bed34aa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Hands (URP)/Materials/URP_Skeleton.mat using Guid(35b03601ea2a9c247983802bed34aa4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac7a0128eff77dcc5217c1246f9125c') in 0.116544 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Hands (URP)/Materials/URP_Outline.mat
+  artifactKey: Guid(d9c11e18744f17e44a653f01ba8c96aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Hands (URP)/Materials/URP_Outline.mat using Guid(d9c11e18744f17e44a653f01ba8c96aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Toon/Basic Outline': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl'. at line 23
+
+Compiling Subshader: 0, Pass: OUTLINE, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: FOG_EXP FOG_EXP2 FOG_LINEAR SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
+Shader warning in 'Toon/Basic Outline': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 23
+
+Compiling Subshader: 0, Pass: OUTLINE, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: FOG_EXP FOG_EXP2 FOG_LINEAR SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
+Shader warning in 'Toon/Basic Outline': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 23
+
+Compiling Subshader: 0, Pass: OUTLINE, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: FOG_EXP FOG_EXP2 FOG_LINEAR SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
+Shader error in 'Toon/Basic Outline': Couldn't open include file 'Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl'. at line 23
+
+Compiling Subshader: 0, Pass: OUTLINE, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: FOG_EXP FOG_EXP2 FOG_LINEAR SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
+Shader warning in 'Toon/Basic Outline': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 23
+
+Compiling Subshader: 0, Pass: OUTLINE, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: FOG_EXP FOG_EXP2 FOG_LINEAR SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
+Shader warning in 'Toon/Basic Outline': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 23
+
+Compiling Subshader: 0, Pass: OUTLINE, Vertex program with <no keywords>
+Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
+Disabled keywords: FOG_EXP FOG_EXP2 FOG_LINEAR SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
+ -> (artifact id: '2742d0e28db97a95dcb397f8e1e07647') in 0.057492 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.485627 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Hands (URP)/Materials/URP_InstancedCapsuleHand.mat
+  artifactKey: Guid(caf6e6d363bd302478106fa03aa54bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Hands (URP)/Materials/URP_InstancedCapsuleHand.mat using Guid(caf6e6d363bd302478106fa03aa54bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feffcc952e3f08266afdd5703ceea6a7') in 0.021248 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.060004 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Hands (URP)/Materials/URP_Floor.mat
+  artifactKey: Guid(513867320f881dc48ac415835e29d8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Hands (URP)/Materials/URP_Floor.mat using Guid(513867320f881dc48ac415835e29d8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79b853e6bfaa07e33c60e22baaf02198') in 0.023917 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.992563 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/UI-Purple.mat
+  artifactKey: Guid(e4f0955539ff59c44bfb21a97806b648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/UI-Purple.mat using Guid(e4f0955539ff59c44bfb21a97806b648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75ceb111aea602fd7003292f97c63c28') in 0.031956 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/UI-mixedreality.mat
+  artifactKey: Guid(99c516f44ee85e2489bf3f7ed68cecd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/UI-mixedreality.mat using Guid(99c516f44ee85e2489bf3f7ed68cecd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8082de733e8a89b35a472bc65c6cc004') in 0.023200 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.037541 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/Tablet-UI-Image.mat
+  artifactKey: Guid(9c7b47c0cd41a8b4bb39577e84247f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/Tablet-UI-Image.mat using Guid(9c7b47c0cd41a8b4bb39577e84247f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41a389ddd491a15f4e6ef140655abcfe') in 0.020530 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/Toytrain-carriage-wheels.mat
+  artifactKey: Guid(edb93464e810ee64db89cab2df4fba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/Toytrain-carriage-wheels.mat using Guid(edb93464e810ee64db89cab2df4fba1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905fda790294b00bf279b7288548bd05') in 0.024906 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.188224 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/Stripes.mat
+  artifactKey: Guid(5d3191d43660b4d4f8ca1506607370a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/Stripes.mat using Guid(5d3191d43660b4d4f8ca1506607370a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b374886fcb8b10bbbaef67205d50a41c') in 0.029667 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.071953 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/SimpleOutline.mat
+  artifactKey: Guid(eefc06f44fefaba46afafd55142f0832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/SimpleOutline.mat using Guid(eefc06f44fefaba46afafd55142f0832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd2eeb4f9ea4f089db7fc3ee913389e') in 0.019739 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.230311 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9887990f914d09b13cd27551a06a5dc7') in 0.070773 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 2.551382 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcc559a7b2888e15338b1a8ff4cbebe') in 0.103113 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Red Standard.mat
+  artifactKey: Guid(51ee002e89aeabf45adc1f83587093ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Red Standard.mat using Guid(51ee002e89aeabf45adc1f83587093ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197f13c324a47768e7b2e86a71664541') in 0.023684 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/Reset.mat
+  artifactKey: Guid(341d4c66286079e438b22511e2cdc408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/Reset.mat using Guid(341d4c66286079e438b22511e2cdc408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69ce2a4718103ed7d76254029a65c59') in 0.024238 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Red Dark Standard.mat
+  artifactKey: Guid(da67de850ecf2ee4ca13ab3720fed439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Red Dark Standard.mat using Guid(da67de850ecf2ee4ca13ab3720fed439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e20b2204c2d905f9eaaa142095d11b') in 0.022644 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.133803 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Mid Gray.mat
+  artifactKey: Guid(fa58d5df62bb71b40a32eec05500bcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Mid Gray.mat using Guid(fa58d5df62bb71b40a32eec05500bcf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1dc560cf6f31255eeebe606f1aa08b') in 0.023750 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.047912 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/MatteWhite.mat
+  artifactKey: Guid(27d76c3a76887f844bc5c5c4132c4689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/MatteWhite.mat using Guid(27d76c3a76887f844bc5c5c4132c4689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2c87bf1cb0d7622a3066337f4a7337') in 0.025985 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/MatteTurquoise.mat
+  artifactKey: Guid(3e7f1351bfdabc6488941e666aa02ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/MatteTurquoise.mat using Guid(3e7f1351bfdabc6488941e666aa02ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f94a973d4e313085cbfe8742fa7a051') in 0.026980 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.358417 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/MattePink.mat
+  artifactKey: Guid(592704ccfc4aedc4b90222e0cc18434a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/MattePink.mat using Guid(592704ccfc4aedc4b90222e0cc18434a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239792a18ce479bfa19ec3a71d2e6fd9') in 0.023634 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/MatteLightBlue.mat
+  artifactKey: Guid(c7224e2b81832b043b0e08a164d3442a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/MatteLightBlue.mat using Guid(c7224e2b81832b043b0e08a164d3442a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e9cda2ede0d8f8cf8269a364f0950a') in 0.023701 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.056091 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/MatteDarkPurple.mat
+  artifactKey: Guid(548d652cd1f14834c822ed1af678431f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/MatteDarkPurple.mat using Guid(548d652cd1f14834c822ed1af678431f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249b15df02a2fe9d2cb1c956a1a010ad') in 0.022195 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000771 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/MatteBlue.mat
+  artifactKey: Guid(48db17d390781614ab09699507abd86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/MatteBlue.mat using Guid(48db17d390781614ab09699507abd86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd316fe2e7e6a23327dc653f3703b47a') in 0.022433 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.173023 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/3D Models/Physical Hands/RoundedPanel.fbx
+  artifactKey: Guid(920bda1c94dbacd4fa4b38c310d4dc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/3D Models/Physical Hands/RoundedPanel.fbx using Guid(920bda1c94dbacd4fa4b38c310d4dc4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50eb3bfe0f01fca6fbddaa89c43a1c7') in 0.085265 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c149444e535762c930a035c711b7ae') in 0.026534 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d2a25fccc6528da64e571aac2b270c') in 0.037495 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.098205 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ae6d077e8f99b5e749dae169272cb5') in 0.147575 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Lamb_LoPolyHand.mat
+  artifactKey: Guid(c5b9e8be6efc5c74aad1024a1e60cc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Lamb_LoPolyHand.mat using Guid(c5b9e8be6efc5c74aad1024a1e60cc0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23649e47b09f550645a881028069b336') in 0.028227 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Unlit Text BG Dark.mat
+  artifactKey: Guid(5bfb48adea98f2b4eb8c987cde2c6173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Unlit Text BG Dark.mat using Guid(5bfb48adea98f2b4eb8c987cde2c6173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fc07c87fd0e10da299ec886c68072f') in 0.051345 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Unlit Text BG Light.mat
+  artifactKey: Guid(13c8d12cf9f998048a24a2f7adc62041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Unlit Text BG Light.mat using Guid(13c8d12cf9f998048a24a2f7adc62041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf31853f43b754ae80b7acecc9cb9db1') in 0.022115 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.044578 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example SphereX.mat
+  artifactKey: Guid(86566622ce0c16442bec9518e6c48937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example SphereX.mat using Guid(86566622ce0c16442bec9518e6c48937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a763c40f1559c242890579e787d351') in 0.023043 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Prism Reflection Transparent.mat
+  artifactKey: Guid(c12aa740729ba6647b92aafc5837f7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Prism Reflection Transparent.mat using Guid(c12aa740729ba6647b92aafc5837f7f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79703ac592f073a5330d9ce69aed43cf') in 0.027114 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.048484 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Prism Red.mat
+  artifactKey: Guid(715d23d2330038e4997eaf7979f4d64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Prism Red.mat using Guid(715d23d2330038e4997eaf7979f4d64f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3452cfbcd92081e2c388c491d4c8113f') in 0.052287 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.416273 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Prism Magenta.mat
+  artifactKey: Guid(1c47cc1942430364aa9648991bb85e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Prism Magenta.mat using Guid(1c47cc1942430364aa9648991bb85e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c0d0a9d704c40a230eb78859379cb1') in 0.023262 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Prism Blue.mat
+  artifactKey: Guid(c72f96eddcce18e40b75a40fd5b472f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Prism Blue.mat using Guid(c72f96eddcce18e40b75a40fd5b472f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb48542aedcc9bb79f0a01ef22c8aed1') in 0.024000 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.018787 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Metallic.mat
+  artifactKey: Guid(bdfd2de707005aa4288a25d4ee9c3b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Metallic.mat using Guid(bdfd2de707005aa4288a25d4ee9c3b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83077e2bb9f402ce1454dc999a6a7339') in 0.021222 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Panel Red.mat
+  artifactKey: Guid(6d23fd159c2675a449dee1b04c5f8286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Panel Red.mat using Guid(6d23fd159c2675a449dee1b04c5f8286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13235b85b79b7017ea26eb58d1edf438') in 0.026068 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.518750 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Light Gray Matte.mat
+  artifactKey: Guid(ae962c51f2146e4439603b2865982593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Light Gray Matte.mat using Guid(ae962c51f2146e4439603b2865982593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '044d45e0def4d9f6287046705213c4df') in 0.033990 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Gray Matte.mat
+  artifactKey: Guid(8eca0b31e096dbb4e9ec168e385043a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Gray Matte.mat using Guid(8eca0b31e096dbb4e9ec168e385043a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c1630b97aaa10ba24aef917db59f96') in 0.023208 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002976 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Button Top Magenta.mat
+  artifactKey: Guid(c3668e6cfed1245449b1c77a171b328a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Button Top Magenta.mat using Guid(c3668e6cfed1245449b1c77a171b328a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd25361133b76a180cb9d45b3cba6b7cb') in 0.024945 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.026235 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Button Magenta.mat
+  artifactKey: Guid(69b1643ce1326a54eb20c5022c2482ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Button Magenta.mat using Guid(69b1643ce1326a54eb20c5022c2482ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '049fe55b20222a0b6c8e5818cc6f2887') in 0.022273 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Button Red.mat
+  artifactKey: Guid(ff7c634b1ca200843b1908e1995a13b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Button Red.mat using Guid(ff7c634b1ca200843b1908e1995a13b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab83052707c957910421c2f96e19e6a') in 0.026259 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.148318 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Black Matte.mat
+  artifactKey: Guid(95c889baf756fd84ba2f1ab36adf3687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Black Matte.mat using Guid(95c889baf756fd84ba2f1ab36adf3687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf3307789d5cdcdac3fc65c70c52a335') in 0.028596 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.004305 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Anchor Magenta.mat
+  artifactKey: Guid(b9d3f1e940eda314f8637d959a3a516c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/IE Example Anchor Magenta.mat using Guid(b9d3f1e940eda314f8637d959a3a516c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0004843818c711ee240c4dd583c6fcb0') in 0.024175 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.023803 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0098866d036798b288f01112bd5b35') in 0.031277 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7644d1a44d003deddd5d9de0f7465391') in 0.034303 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.143282 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Green Dark Standard.mat
+  artifactKey: Guid(4842b2f4fd9791d41975d9dc8a13d707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Green Dark Standard.mat using Guid(4842b2f4fd9791d41975d9dc8a13d707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe1556dc39483c64f0305eae4d88125') in 0.023726 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/Glass.mat
+  artifactKey: Guid(d73dd661d49b1c4428a29fd9c9bbb5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Physical Hands/Glass.mat using Guid(d73dd661d49b1c4428a29fd9c9bbb5c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206318c64eed8e7dce03309eeb44b0cd') in 0.025854 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.023504 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Ghost Hand-PoseDetector.mat
+  artifactKey: Guid(0a1229e751385b44a94303d90741224b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Ghost Hand-PoseDetector.mat using Guid(0a1229e751385b44a94303d90741224b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '466dcd239f6dc4b34109756d7eac38ad') in 0.029938 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.167158 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd3eeb6beb71adce71f5e1fb736ac9b') in 0.047799 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c876f2af32b005fde4dc9a64ea90047d') in 0.037697 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6bcc75aaa79690f2366b90e88141df') in 0.042011 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.303102 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Flat.mat
+  artifactKey: Guid(b8cc224159b06514f97cec1f92e6f071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/Flat.mat using Guid(b8cc224159b06514f97cec1f92e6f071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78acd7b520e0db31f04cc928ec03197d') in 0.025138 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.047669 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/DottedLineMaterial.mat
+  artifactKey: Guid(27f2e7b4eb9f7d340a6f8f3486e3e691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/Materials/DottedLineMaterial.mat using Guid(27f2e7b4eb9f7d340a6f8f3486e3e691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '939c7cca635788a87a0b6654d55ead52') in 0.028794 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/3D Models/Physical Hands/ObjectTube.obj
+  artifactKey: Guid(4523b00f67593cf47b98eed2a79f4268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/3D Models/Physical Hands/ObjectTube.obj using Guid(4523b00f67593cf47b98eed2a79f4268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc532623bb48a11070b0eb38174177a0') in 0.072308 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/3D Models/Physical Hands/CupboardUnitDoor.obj
+  artifactKey: Guid(49b41d03581c8bc43aa7c6298e0c6a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/3D Models/Physical Hands/CupboardUnitDoor.obj using Guid(49b41d03581c8bc43aa7c6298e0c6a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f171aa1d8b6f5b0d474b10e9fcaa15be') in 0.065314 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.753920 seconds.
+  path: Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/3D Models/Physical Hands/Triangle.obj
+  artifactKey: Guid(fc1c74d2bb7420044ab1dd62e8dfd49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Samples/Ultraleap Tracking/6.14.0/Interaction Examples/Example Assets/3D Models/Physical Hands/Triangle.obj using Guid(fc1c74d2bb7420044ab1dd62e8dfd49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58e0d505f549008a7ca3a65742dba20') in 0.059117 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+  artifactKey: Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat using Guid(e6b9b44320f4448d9d5e0ee634259966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a252fd4009818e89c54977205fc8d3be') in 0.287027 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.066877 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35afa5645ae51be3145599752ce98dc') in 0.029351 seconds 
+Number of asset objects unloaded after import = 6
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
